@@ -1113,6 +1113,10 @@ padding: 10px 5px 10px 15px;
   padding: 10px;
   font-size: 13px;
 }
+/* #Subtotal button{
+  background-color: #088178;
+  color: #eff;
+} */
 
 /* ===========login ===page======== */
 
@@ -1122,10 +1126,7 @@ padding: 10px 5px 10px 15px;
   background-color:#c9cbce;
   height: 100vh;
 }
-/* #Subtotal button{
-  background-color: #088178;
-  color: #eff;
-} */
+
 /* ========media queries for responsivenes====== */
 @media (max-width: 799px) {
   .section-p1 {
