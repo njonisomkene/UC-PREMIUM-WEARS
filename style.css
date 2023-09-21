@@ -1114,6 +1114,14 @@ padding: 10px 5px 10px 15px;
   font-size: 13px;
 }
 
+/* ===========login ===page======== */
+
+#login .logincenter{
+  margin: 0;
+  padding: 0;
+  background-color:#c9cbce;
+  height: 100vh;
+}
 /* #Subtotal button{
   background-color: #088178;
   color: #eff;
