@@ -91,6 +91,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
+  height: 80px;
 }
 
 #header .logo {
@@ -145,6 +146,14 @@ body {
   color: #7c7c7c;
   background-color: rgba(175, 143, 175, 0.4);
   padding: 15px;
+  border-radius: 5px;
+}
+
+header .btnlogin-popup:hover,
+header .btnlogin-popup:active {
+  color: #088178;
+  background-color: rgba(175, 143, 175, 0.4);
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -1123,8 +1132,36 @@ padding: 10px 5px 10px 15px;
 #login .logincenter{
   margin: 0;
   padding: 0;
-  background-color:#c9cbce;
+  background-color:#6e4545;
   height: 100vh;
+}
+
+.wrapper{
+  position: relative;
+  width: 400px;
+  height: 440px;
+  /* background-image: url(img/h1.jpg); */
+  background-color: #e3e6f3;
+  background-size: cover;
+  background-color:transparent;
+  border: 1px solid rgba(175, 143, 175, 0.4);
+  border-radius: 20px;
+  backdrop-filter: blur(2000px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+#header .btnlogin-popup{
+  width: 60px;
+  height: 35px;
+  color: #088178;
+  background-color: #e3e6f3;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6e4545;
+  transition: 0.3s ease;
 }
 
 /* ========media queries for responsivenes====== */
